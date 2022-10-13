@@ -10,6 +10,8 @@ main, footer {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 .text-address {
@@ -21,9 +23,14 @@ main, footer {
     text-decoration: none;
 }
 
-.social-link > svg {
+a.social-link > svg {
     fill: #bca5c3;
 
-    width: 32px;
+    width: 32px;    
     height: 32px;
+}
+
+.social-link:hover > svg {
+    fill: #9e4ab7;
+    /* cursor: crosshair; */
 }
